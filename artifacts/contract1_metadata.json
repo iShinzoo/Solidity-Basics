@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayofContract",
+				"outputs": [
+					{
+						"internalType": "contract contract2",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "calling",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SmFactory.sol": "contract1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SmFactory.sol": {
+			"keccak256": "0x6dcbcfafba1cbf0648d8c59425ec2fd710b05e7e80a36f755049b13537c478f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bcf4a2faf3432994be26df40ecf854a11eb435445cc5562f54f7f6fbb910cf1a",
+				"dweb:/ipfs/QmY6sfK7s3T4xxsCRN2f5E6RLcB8dzWtGKZXkJZjyEroQZ"
+			]
+		}
+	},
+	"version": 1
+}

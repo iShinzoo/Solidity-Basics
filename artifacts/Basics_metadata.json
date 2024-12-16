@@ -1,13 +1,51 @@
 {
 	"compiler": {
-		"version": "0.8.20+commit.a1b79de6"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_coins",
+						"type": "string"
+					}
+				],
+				"name": "MemoryStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "assertError",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_coins",
+						"type": "string"
+					}
+				],
+				"name": "callDataStorage",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -26,6 +64,39 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "normalStorage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "revertError",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -40,9 +111,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "subtract",
+				"name": "stack",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -59,9 +130,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Crud.sol": "Basics"
+			"Basic.sol": "Basics"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -73,12 +144,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Crud.sol": {
-			"keccak256": "0xc5a1ce0ef11712ea8a3fb766335a18fcbf18a10c7641289b39de7fd387e3c14a",
+		"Basic.sol": {
+			"keccak256": "0xb5458ae085e4bf35fef754a3b638e76ed7528486bb75f6e38fa381e142e30431",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://98a5441d055c0c89a45f1eb09f65d94027a579e176f5964b5fb27ab045b0003a",
-				"dweb:/ipfs/QmRedGkQ9Qw8fAx5W43vdffzzKbKsH1BGo9ddha7ae4iXC"
+				"bzz-raw://bc69e241fc7e0927f15a08321d1f0dfa51b62b0be23a9f6a47215c3b5acf12c3",
+				"dweb:/ipfs/QmQUZzHMW2L7kkkrwBzKvmRwxu1gWxG3VZ968kh3MQNNFs"
 			]
 		}
 	},

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MultipleContracts.sol": "contact1"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basic.sol": {
+			"keccak256": "0xb5458ae085e4bf35fef754a3b638e76ed7528486bb75f6e38fa381e142e30431",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc69e241fc7e0927f15a08321d1f0dfa51b62b0be23a9f6a47215c3b5acf12c3",
+				"dweb:/ipfs/QmQUZzHMW2L7kkkrwBzKvmRwxu1gWxG3VZ968kh3MQNNFs"
+			]
+		},
+		"MultipleContracts.sol": {
+			"keccak256": "0x0bab2aad6c687ba70c7cc7c8f9e0ff1e8e27f76d0c51a1d7e6a82baced4aafe1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ea6cab046b01f00eec0636e20701dcbb4162ab246d49c4c138f4eb9f3297f93",
+				"dweb:/ipfs/Qmen4576kKrKU9mgWsF2TytSZ21BuSFus21YL2drLfL7Gm"
+			]
+		}
+	},
+	"version": 1
+}

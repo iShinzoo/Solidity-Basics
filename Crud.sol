@@ -4,7 +4,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.4;
 
-contract Basics {
+contract Crud {
     uint256 public coins = 0;
 
     function add() public {
