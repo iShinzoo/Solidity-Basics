@@ -59,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SmFactory.sol": "Crud"
+			"Crud.sol": "Crud"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -73,7 +73,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"SmFactory.sol": {
+		"Crud.sol": {
 			"keccak256": "0xe6a380d8f279e1351fff9e291bd367c7435717e03c7a2fb2401b5191619a53cc",
 			"license": "MIT",
 			"urls": [
